@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	direction: rtl;
+}
+.divHeader{
+	width: auto;
+	height: 590px;
+	background-image: url("../Img/Logo2.png");
+	background-position:bottom;
+	text-align: center;
+	color: white;
+	padding: 10px 10px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+	z-index: 1;
+}
+.text-color a{
+	color: #fff;
+	transition: 0.3s;
+}
+.text-color a:focus{
+	color: aqua;
+}
+.text-color a:hover{
+	color: aqua;
+}
+.h1-color{
+	color: aqua;
+}
+.about-us{
+	color: #fff;
+	background-color: #37474F;
+}
+.about-card{
+	background-color: #292b2c;
+	color: #fff;
+	width: 350px;
+	height: 350px;
+	text-align: center;
+	margin-right: 40px;
+}
+.aboutus-row-color{
+	color: #fff;
+	background-color: #292b2c;
+}
+.i-color{
+	color: aqua;
+}
+.vaziat{
+	color: #fff;
+	background-color: #37474F;
+    height: 640px;
+}
+.team{
+	color: #fff;
+	background-color: #292b2c;
+}
+.team-oveflow{
+	overflow: hidden;
+	cursor: pointer;
+}
+.team-img-hover{
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+.team-img-hover:hover{
+	transform: scale(1.4);
+}
+.news{
+	color: #fff;
+	background-color: #37474F;
+}
+.news-overflow{
+	 overflow: hidden;
+	border-radius: 4px;
+}
+.news-img{
+	transform: scale(1.2);
+}
+.shop{
+	color: #fff;
+	background-color: #292b2c;
+}
+.table-color tr:nth-child(odd){
+	color: #fff;
+	background-color: #37474F;
+}
+.table-color tr:nth-child(even){
+	color: #fff;
+	background-color: #292b2c;
+}
+.th{
+	height: 120px;
+	color: aqua;
+}
+.th button{
+	background-color: #37474F;
+	margin-top: 30px;
+}
+.th button:hover{
+	background-color: #292b2c;
+}
+.contact{
+	color: #fff;
+	background-color: #37474F;
+}
+.footer{
+	color: #fff;
+	background-color: #292b2c;
+}
